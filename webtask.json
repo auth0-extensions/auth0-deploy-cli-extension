@@ -21,7 +21,5 @@
     "createClient": true,
     "onUninstallPath": "/.extensions/on-uninstall",
     "scopes": "read:tenant_settings update:tenant_settings create:client_grants read:client_grants update:client_grants delete:client_grants create:clients read:clients update:clients delete:clients read:connections update:connections create:resource_servers read:resource_servers update:resource_servers delete:resource_servers read:rules create:rules update:rules delete:rules"
-  },
-  "secrets": {
   }
 }
