@@ -1,0 +1,8 @@
+.DS_Store
+.idea
+.nyc_output
+coverage
+dist
+node_modules
+npm-debug.log
+server/config.json
