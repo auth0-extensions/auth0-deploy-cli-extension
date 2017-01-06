@@ -20,8 +20,8 @@ export default ({ tenant }) => {
       <h5>Configure the CLI</h5>
       <pre style={{ padding: '10px' }}>
        <p>
-        First find the client created by this extension, it is named auth0-deploy-cli-extension: <img src="https://cdn.rawgit.com/auth0-extensions/auth0-box-platform-extension/master/media/help-copy-client-id-secret.png" /><br/>
-        Next copy the client ID and secret: <img src="https://cdn.rawgit.com/auth0-extensions/auth0-box-platform-extension/master/media/help-find-client.png" />
+        First find the client created by this extension, it is named auth0-deploy-cli-extension: <img src="https://cdn.rawgit.com/auth0-extensions/auth0-deploy-cli-extension/master/media/help-find-client.png" /><br/>
+        Next copy the client ID and secret: <img src="https://cdn.rawgit.com/auth0-extensions/auth0-deploy-cli-extension/master/media/help-copy-client-id-secret.png" />
        </p>
        <code>
           Create a config.json file with the following information:<br/>
