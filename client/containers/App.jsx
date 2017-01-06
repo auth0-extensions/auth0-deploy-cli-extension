@@ -47,7 +47,7 @@ export default RequireAuthentication(connectContainer(class App extends Componen
                     <h1 className="pull-left" style={{ paddingTop: '10px' }}>Deploy CLI</h1>
                   </div>
                 </div>
-                <Help config={this.props.config.get('record').toJS()} />
+                <Help tenant={window.config.AUTH0_DOMAIN} clientId={window.config.AUTH0_CLIENT_ID} />
               </div>
             </section>
           </div>

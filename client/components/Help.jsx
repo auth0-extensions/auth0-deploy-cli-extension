@@ -1,6 +1,8 @@
 import React from 'react';
 
-export default () => {
+export default ({ tenant }) => {
+  const clientId = '< auth0-deploy-cli-extension client ID >';
+  const secret = '< auth0-deploy-cli-extension client secret >';
   return (
     <div>
       <h4>Usage</h4>
@@ -12,6 +14,22 @@ export default () => {
       <pre style={{ padding: '10px' }}>
         <code>
           npm i -g auth0-deploy-cli
+        </code>
+      </pre>
+
+      <h5>Configure the CLI</h5>
+      <pre style={{ padding: '10px' }}>
+       <p>
+        First find the client created by this extension, it is named auth0-deploy-cli-extension: <img src="https://cdn.rawgit.com/auth0-extensions/auth0-box-platform-extension/master/media/help-copy-client-id-secret.png" /><br/>
+        Next copy the client ID and secret: <img src="https://cdn.rawgit.com/auth0-extensions/auth0-box-platform-extension/master/media/help-find-client.png" />
+       </p>
+       <code>
+          Create a config.json file with the following information:<br/>
+          {'{'}<br/>
+          &nbsp;&nbsp;"AUTH0_DOMAIN": "{ tenant }"<br/>
+          &nbsp;&nbsp;"AUTH0_CLIENT_ID": "{ clientId }"<br/>
+          &nbsp;&nbsp;"AUTH0_CLIENT_SECRET": "{ secret }"<br/>
+          {'}'}<br/>
         </code>
       </pre>
 
