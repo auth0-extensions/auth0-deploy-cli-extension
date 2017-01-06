@@ -1,7 +1,6 @@
 import React from 'react';
 
-export default ({ config }) => {
-  const audience = config.audience || 'unknown identifier';
+export default () => {
   return (
     <div>
       <h4>Usage</h4>
