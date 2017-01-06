@@ -21,7 +21,7 @@ export default () => {
     <link rel="stylesheet" type="text/css" href="https://cdn.auth0.com/manage/v0.3.1715/css/index.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.auth0.com/styleguide/4.6.13/index.css">
     <% if (assets.style) { %><link rel="stylesheet" type="text/css" href="/app/<%= assets.style %>"><% } %>
-    <% if (assets.version) { %><link rel="stylesheet" type="text/css" href="https://s3.amazonaws.com/assets.auth0.com/extensions/develop/auth0-deploy-cli/assets/auth0-deploy-cli.ui.<%= assets.version %>.css"><% } %>
+    <% if (assets.version) { %><link rel="stylesheet" type="text/css" href="https://s3.amazonaws.com/assets.auth0.com/extensions/develop/auth0-deploy-cli-extension/assets/auth0-deploy-cli.ui.<%= assets.version %>.css"><% } %>
     <style type="text/css">
     pre {
       background-color: #fbfbfb;
@@ -40,8 +40,8 @@ export default () => {
     <% if (assets.vendors) { %><script type="text/javascript" src="/app/<%= assets.vendors %>"></script><% } %>
     <% if (assets.app) { %><script type="text/javascript" src="//localhost:3000/app/<%= assets.app %>"></script><% } %>
     <% if (assets.version) { %>
-    <script type="text/javascript" src="https://s3.amazonaws.com/assets.auth0.com/extensions/develop/auth0-deploy-cli/assets/auth0-deploy-cli.ui.vendors.<%= assets.version %>.js"></script>
-    <script type="text/javascript" src="https://s3.amazonaws.com/assets.auth0.com/extensions/develop/auth0-deploy-cli/assets/auth0-deploy-cli.ui.<%= assets.version %>.js"></script>
+    <script type="text/javascript" src="https://s3.amazonaws.com/assets.auth0.com/extensions/develop/auth0-deploy-cli-extension/assets/auth0-deploy-cli.ui.vendors.<%= assets.version %>.js"></script>
+    <script type="text/javascript" src="https://s3.amazonaws.com/assets.auth0.com/extensions/develop/auth0-deploy-cli-extension/assets/auth0-deploy-cli.ui.<%= assets.version %>.js"></script>
     <% } %>
   </body>
   </html>
