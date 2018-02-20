@@ -1,6 +1,6 @@
 {
   "name": "auth0-deploy-cli-extension",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The Auth0 Deploy Extension allows you to use the Auth0 Deploy CLI to configure your Auth0 Tenant",
   "engines": {
     "node": "5.9.0"
@@ -26,7 +26,7 @@
   "dependencies": {
     "async": "^1.5.2",
     "auth0": "^2.4.0",
-    "auth0-extension-express-tools": "1.0.1",
+    "auth0-extension-express-tools": "1.0.2",
     "auth0-extension-tools": "1.0.0",
     "auth0-extension-ui": "0.14.0",
     "axios": "^0.15.0",
