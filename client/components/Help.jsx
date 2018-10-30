@@ -28,9 +28,12 @@ export default ({ tenant }) => {
        <code>
           Create a config.json file with the following information:<br/>
           {'{'}<br/>
-          &nbsp;&nbsp;"AUTH0_DOMAIN": "{ tenant }"<br/>
-          &nbsp;&nbsp;"AUTH0_CLIENT_ID": "{ clientId }"<br/>
-          &nbsp;&nbsp;"AUTH0_CLIENT_SECRET": "{ secret }"<br/>
+          &nbsp;&nbsp;"AUTH0_DOMAIN": "{ tenant }",<br/>
+          &nbsp;&nbsp;"AUTH0_CLIENT_ID": "{ clientId }",<br/>
+          &nbsp;&nbsp;"AUTH0_CLIENT_SECRET": "{ secret }",<br/>
+          &nbsp;&nbsp;"AUTH0_KEYWORD_REPLACE_MAPPINGS": {'{'} "AUTH0_TENANT_NAME": "{ tenant }" {'}'},<br/>
+          &nbsp;&nbsp;"AUTH0_ALLOW_DELETE": false,<br/>
+          &nbsp;&nbsp;"AUTH0_EXCLUDED_RULES": {'['} "rule-1-name" {']'}<br/>
           {'}'}<br/>
         </code>
       </pre>
