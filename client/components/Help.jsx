@@ -18,14 +18,16 @@ export default ({ tenant }) => {
       </pre>
 
       <h5>Configure the CLI</h5>
+      <p>
+       First find the client created by this extension, it is named auth0-deploy-cli-extension:<br/>
+        <img src="https://cdn.rawgit.com/auth0-extensions/auth0-deploy-cli-extension/master/media/help-find-client.png" /><br/>
+      </p>
+      <p>
+       Next copy the client ID and secret:<br/>
+        <img src="https://cdn.rawgit.com/auth0-extensions/auth0-deploy-cli-extension/master/media/help-copy-client-id-secret.png" />
+      </p>
       <pre style={{ padding: '10px' }}>
-       <p>
-        First find the client created by this extension, it is named auth0-deploy-cli-extension:<br/>
-         <img src="https://cdn.rawgit.com/auth0-extensions/auth0-deploy-cli-extension/master/media/help-find-client.png" /><br/>
-        Next copy the client ID and secret:<br/>
-         <img src="https://cdn.rawgit.com/auth0-extensions/auth0-deploy-cli-extension/master/media/help-copy-client-id-secret.png" />
-       </p>
-       <code>
+        <code>
           Create a config.json file with the following information:<br/>
           {'{'}<br/>
           &nbsp;&nbsp;"AUTH0_DOMAIN": "{ tenant }",<br/>
