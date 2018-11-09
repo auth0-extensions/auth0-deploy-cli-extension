@@ -19,31 +19,31 @@ export default ({ tenant }) => {
 
       <h5>Configure the CLI</h5>
       <p>
-       First find the client created by this extension, it is named auth0-deploy-cli-extension:<br/>
-        <img src="https://cdn.rawgit.com/auth0-extensions/auth0-deploy-cli-extension/master/media/help-find-client.png" /><br/>
+       First find the client created by this extension, it is named auth0-deploy-cli-extension:<br />
+        <img src="https://cdn.rawgit.com/auth0-extensions/auth0-deploy-cli-extension/master/media/help-find-client.png" /><br />
       </p>
       <p>
-       Next copy the client ID and secret:<br/>
+       Next copy the client ID and secret:<br />
         <img src="https://cdn.rawgit.com/auth0-extensions/auth0-deploy-cli-extension/master/media/help-copy-client-id-secret.png" />
       </p>
       <pre style={{ padding: '10px' }}>
         <code>
-          Create a config.json file with the following information:<br/>
-          {'{'}<br/>
-          &nbsp;&nbsp;"AUTH0_DOMAIN": "{ tenant }",<br/>
-          &nbsp;&nbsp;"AUTH0_CLIENT_ID": "{ clientId }",<br/>
-          &nbsp;&nbsp;"AUTH0_CLIENT_SECRET": "{ secret }",<br/>
-          &nbsp;&nbsp;"AUTH0_KEYWORD_REPLACE_MAPPINGS": {'{'} "AUTH0_TENANT_NAME": "{ tenant }" {'}'},<br/>
-          &nbsp;&nbsp;"AUTH0_ALLOW_DELETE": false,<br/>
-          &nbsp;&nbsp;"AUTH0_EXCLUDED_RULES": {'['} "rule-1-name" {']'}<br/>
-          {'}'}<br/>
+          Create a config.json file with the following information:<br />
+          {'{'}<br />
+          &nbsp;&nbsp;"AUTH0_DOMAIN": "{ tenant }",<br />
+          &nbsp;&nbsp;"AUTH0_CLIENT_ID": "{ clientId }",<br />
+          &nbsp;&nbsp;"AUTH0_CLIENT_SECRET": "{ secret }",<br />
+          &nbsp;&nbsp;"AUTH0_KEYWORD_REPLACE_MAPPINGS": {'{'} "AUTH0_TENANT_NAME": "{ tenant }" {'}'},<br />
+          &nbsp;&nbsp;"AUTH0_ALLOW_DELETE": false,<br />
+          &nbsp;&nbsp;"AUTH0_EXCLUDED_RULES": {'['} "rule-1-name" {']'}<br />
+          {'}'}<br />
         </code>
       </pre>
 
       <h5>Run the CLI</h5>
       <pre style={{ padding: '10px' }}>
         <code>
-          a0deploy -i &lt;your repo directory&gt; -c &lt;your config json&gt;
+          a0deploy export -c &lt;your config json&gt; -f yaml -o &lt;your repo directory&gt;
         </code>
       </pre>
     </div>
