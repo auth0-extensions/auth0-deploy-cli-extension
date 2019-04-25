@@ -9,10 +9,10 @@
   "useHashName": false,
   "docsUrl": "https://github.com/auth0/auth0-deploy-cli/blob/master/README.md",
   "logoUrl": "http://openid.net/wordpress-content/uploads/2016/05/auth0-logo-blue.png",
-  "codeUrl": "https://raw.githubusercontent.com/auth0-extensions/auth0-deploy-cli-extension/master/build/bundle.js",
+  "codeUrl": "https://raw.githubusercontent.com/geotorres/auth0-deploy-cli-extension/master/build/bundle.js",
   "initialUrlPath": "/admins/login",
   "uninstallConfirmMessage": "Do you really want to uninstall this extension? Doing so will also remove the client.",
-  "repository": "https://github.com/auth0-extensions/auth0-deploy-cli-extension",
+  "repository": "https://github.com/geotorres/auth0-deploy-cli-extension",
   "keywords": [
     "auth0",
     "extension",
