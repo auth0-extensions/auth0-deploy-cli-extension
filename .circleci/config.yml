@@ -42,6 +42,3 @@ jobs:
           key: npm-dependencies-{{ checksum "package-lock.json" }}
           paths:
             - ./node_modules
-
-      # run tests!
-      - run: npm test
