@@ -4,15 +4,9 @@
 
 ### Installation
 
-Go to the [Extensions](https://manage.auth0.com/#/extensions) tab of the dashboard.
+On the [Extensions](https://manage.auth0.com/#/extensions) tab of the dashboard and search for and install the `Auth0 Deploy CLI` extension.
 
-![](/media/step1-extensions-overview.png)
-
-Click **CREATE EXTENSION** and install the extension from this repository: https://github.com/auth0-extensions/auth0-deploy-cli-extension
-
-![](/media/step2-extension-link.png)
-
-You can now open the extension which will now show instructions on how it can be used:
+It should created a machine to machine application named `auth0-deploy-cli-extension`. This application is the Client ID and Secret that you use to configure the cli.
 
 ![](/media/step3-auth0-deploy-cli-homepage.png)
 
