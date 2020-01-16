@@ -23,7 +23,7 @@ module.exports = externalModules.then((externals) => {
   externals.compatible.auth0 = 'auth0@2.4.0';
   externals.compatible['auth0-oauth2-express'] = 'auth0-oauth2-express@1.1.5';
   externals.compatible.nconf = true;
-  externals.compatible['auth0-extension-express-tools'] = 'auth0-extension-express-tools@1.0.2';
+  externals.compatible['auth0-extension-express-tools'] = 'auth0-extension-express-tools@2.0.0';
   externals.compatible['lru-memoizer'] = 'lru-memoizer@1.10.0';
   externals.compatible['auth0-extension-tools'] = 'auth0-extension-tools@1.0.0';
   externals.compatible['node-uuid'] = true;
