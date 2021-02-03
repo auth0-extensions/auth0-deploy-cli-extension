@@ -1,5 +1,6 @@
 {
   "title": "Auth0 Deploy CLI",
+  "deprecated": true,
   "name": "auth0-deploy-cli-extension",
   "version": "6.0.0",
   "preVersion": "2.0.0",
